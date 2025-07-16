@@ -19,6 +19,35 @@ Jobiz est une application web dédiée à la mise en relation des chercheurs d'e
         Utiliser les filtres pour affiner la recherche
         Postuler directement avec une lettre de motivation
 
-
-
-
+Jobiz/<br>
+├── config/<br>
+│ ├── routes.php <br>
+│ └──
+├── public/<br>
+│ ├── index.php<br>
+│ └──.htaccess<br>
+├── src/<br>
+│ ├── Controller/<br>
+| | ├── PageController.php<br>
+│ │ └── Controller.php<br>
+| ├── Entity/<br>
+| | ├──<br>
+│ │ └──<br>
+| ├── Repository/<br>
+| | ├──<br>
+│ │ └──<br>
+| ├── Routing/<br>
+| | ├──Router.php<br>
+│ │ └──<br>
+├── vendor/<br>
+├── view/<br>
+│ ├── Pages/<br>
+| | ├── about.php<br>
+│ │ └── home.php<br>
+├── .env<br>
+├── .gitignore<br>
+├── composer.json<br>
+├── 000-default.conf<br>
+├── docker-compose.yml<br>
+├── Dockerfile<br>
+└── README.md<br>
