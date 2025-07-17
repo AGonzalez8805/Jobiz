@@ -1,3 +1,10 @@
+<?php
+
+use App\Routing\Router;
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -19,8 +26,8 @@
                 <span class="ml-3 text-xl">Jobiz</span>
             </a>
             <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-                <a href="/" class="mr-5 hover:text-gray-900">Accueil</a>
-                <a href="/about/" class="mr-5 hover:text-gray-900">A propos</a>
+                <a href="/" class="mr-5 hover:text-gray-900 <?= Router::isActiveRoute("/") ? "text-indigo-500" : "" ?>">Accueil</a>
+                <a href="/about/" class="mr-5 hover:text-gray-900 <?= Router::isActiveRoute("/about/") ? "text-indigo-500" : "" ?>">A propos</a>
                 <a class="mr-5 hover:text-gray-900">Third Link</a>
                 <a class="mr-5 hover:text-gray-900">Fourth Link</a>
             </nav>

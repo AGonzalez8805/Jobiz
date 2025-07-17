@@ -43,4 +43,9 @@ class Router
         $path = rtrim($path, "/") . "/";
         return $path;
     }
+
+    public static function isActiveRoute(string $path): bool
+    {
+        return self::normalizePath($_SERVER["REQUEST_URI"]) === $path;
+    }
 }
