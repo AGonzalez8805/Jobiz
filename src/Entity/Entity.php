@@ -2,6 +2,8 @@
 
 namespace App\Entity;
 
+use DateTimeImmutable;
+
 class Entity
 {
 
@@ -17,15 +19,18 @@ class Entity
     {
         foreach ($data as $key => $value) {
 
-            //$methodName = str_replace(array('-', '_'), ' ', $key); //first_name devient first name
-            //$methodName = ucwords($methodName); //first name devient First Name
-            //$methodName = str_replace(' ', '', $methodName); //First Name devient FirstName
-            //$methodName = "set" . $methodName; //FirstName devient setFirstName
+            $methodName = str_replace(array('-', '_'), ' ', $key); //first_name devient first name
+            $methodName = ucwords($methodName); //first name devient First Name
+            $methodName = str_replace(' ', '', $methodName); //First Name devient FirstName
+            $methodName = "set" . $methodName; //FirstName devient setFirstName
 
             // équivalent en une ligne : 
-            $methodName = "set" . str_replace(' ', '', ucwords(str_replace(array('-', '_'), ' ', $key)));
+            // $methodName = "set" . str_replace(' ', '', ucwords(str_replace(array('-', '_'), ' ', $key)));
 
             if (method_exists($this, $methodName)) {
+                if ($key === 'created_at') {
+                    $value = new DateTimeImmutable($value);
+                }
                 $this->{$methodName}($value);
             }
         }

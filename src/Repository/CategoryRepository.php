@@ -12,10 +12,10 @@ class CategoryRepository extends Repository
         $query->execute();
 
         //Hydratation automatique par PDO
-        $categories = $query->fetchAll($this->pdo::FETCH_CLASS, Category::class);
+        // $categories = $query->fetchAll($this->pdo::FETCH_CLASS, Category::class);
 
-        // $categories = $query->fetchAll($this->pdo::FETCH_ASSOC);
-        return $categories;
+        $categories = $query->fetchAll($this->pdo::FETCH_ASSOC);
+
 
         $categoriesArray = [];
         if ($categories) {
@@ -32,7 +32,6 @@ class CategoryRepository extends Repository
         $query->bindValue(':id', $id, $this->pdo::PARAM_INT);
         $query->execute();
         $categoryArray = $query->fetch($this->pdo::FETCH_ASSOC);
-        $categoryArray["first_name"] = "John";
 
         $category = Category::createAndHydrate($categoryArray);
 
