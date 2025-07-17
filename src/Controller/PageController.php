@@ -2,6 +2,7 @@
 
 namespace App\Controller;
 
+use App\Entity\Category;
 use App\Repository\CategoryRepository;
 
 class PageController extends Controller
@@ -12,9 +13,16 @@ class PageController extends Controller
 
         $categories = $categoryRepository->findAll();
 
+        //Exemple de création de catégorie (faudra créer un formulaire)
+        /*
+        $category = new Category();
+        $category->setName("Test ABC");
+        $res = $categoryRepository->persist($category);
+        echo '<pre>';
+        var_dump($res);
+        echo '<pre>';
+*/
         $this->render("pages/home", [
-            // "grettings" => $gretting,
-            // "name" => $name,
             "categories" => $categories,
 
         ]);

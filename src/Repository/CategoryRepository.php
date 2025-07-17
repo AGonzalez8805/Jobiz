@@ -37,4 +37,18 @@ class CategoryRepository extends Repository
 
         return $category;
     }
+    //Enregistrer une nouvelle catégorie
+    /*
+    public function persist(Category $category): bool
+    {
+        if ($category->getId()) {
+            //Update
+        } else {
+            //Insertion
+            $query = $this->pdo->prepare("INSERT INTO `Category` (`name`) VALUES(:name);");
+            $query->bindValue(':name', $category->getName(), $this->pdo::PARAM_STR);
+        }
+        return $query->execute();
+    }
+        */
 }
