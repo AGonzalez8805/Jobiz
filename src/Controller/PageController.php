@@ -15,8 +15,8 @@ class PageController extends Controller
         $this->render("pages/about");
     }
 
-    public function test(): void
-    {
-        $this->render("pages/test");
-    }
+    // public function test(): void
+    // {
+    //     $this->render("pages/test");
+    // }
 }

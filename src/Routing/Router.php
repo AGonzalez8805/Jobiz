@@ -2,8 +2,7 @@
 
 namespace App\Routing;
 
-use App\Controller\ErrorController as ControllerErrorController;
-use App\ErrorController;
+use App\Controller\ErrorController;
 
 class Router
 {
@@ -33,7 +32,7 @@ class Router
             }
             $controller->$action();
         } catch (\Exception $e) {
-            $errorController = new ControllerErrorController();
+            $errorController = new ErrorController();
             $errorController->show($e->getMessage());
         }
     }
