@@ -2,12 +2,19 @@
 
 namespace App\Controller;
 
+use App\Repository\CategoryRepository;
+
 class PageController extends Controller
 {
     public function home(): void
     {
+        $categoryRepository = new CategoryRepository();
 
-        $this->render("pages/home");
+        $categories = $categoryRepository->findAll();
+        $this->render("pages/home", [
+            "categories" => $categories,
+
+        ]);
     }
 
     public function about(): void
