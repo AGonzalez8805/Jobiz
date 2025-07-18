@@ -20,28 +20,21 @@ Jobiz est une application web dédiée à la mise en relation des chercheurs d'e
         Postuler directement avec une lettre de motivation<br>
 
 
-mon-super-projet/
-├── .vscode/
-│   └── settings.json
-├── node_modules/
-│   ├── (nombreux dossiers de dépendances)
-│   └── .package-lock.json
-├── public/
-│   ├── index.html
-│   ├── css/
-│   │   └── style.css
-│   └── js/
-│       └── main.js
-├── src/
-│   ├── components/
-│   │   ├── Header.js
-│   │   └── Footer.js
-│   ├── pages/
-│   │   ├── HomePage.js
-│   │   └── AboutPage.js
-│   └── App.js
-├── .gitignore
-├── package.json
-├── README.md
-└── server.js
+mon-super-projet/</br>
+├── .vscode/</br>
+│   └── settings.json</br>
+├── node_modules/</br>
+│   ├── (nombreux dossiers de dépendances)</br>
+│   └── .package-lock.json</br>
+├── public/</br>
+│   ├── index.html</br>
+│   ├── css/</br>
+│   │   └── style.css</br>
+│   └── js/</br>
+│       └── main.js</br>
+├── src/</br>
+│   ├── components/</br>
+│   │   ├── Header.js</br>
+│   │   └── Footer.js</br>
+
 
