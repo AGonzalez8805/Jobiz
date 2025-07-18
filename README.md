@@ -6,9 +6,9 @@ Jobiz est une application web dédiée à la mise en relation des chercheurs d'e
 * 📌Fonctionnalités<br>
 * 🔍Parcourir les offres d'emploi<br>
 * 📁Filtrer par:<br>
-* Catégorie<br>
-* Fourchette de salaire<br>
-* Pays<br>
+    * Catégorie<br>
+    * Fourchette de salaire<br>
+    * Pays<br>
         📄Détail complet d'une offre<br>
         📝Formulaire de candidature avec lettre de motivation<br>
         🔐Authentification des utilisateurs (connexion, inscription)<br>
