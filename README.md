@@ -18,3 +18,9 @@ Jobiz est une application web dédiée à la mise en relation des chercheurs d'e
         * Naviguer parmi les offres<br>
         * Utiliser les filtres pour affiner la recherche<br>
         * Postuler directement avec une lettre de motivation<br>
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> cfb2351dce998ae9fab1dade9faef44a43340a9d
