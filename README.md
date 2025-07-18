@@ -20,77 +20,77 @@ Jobiz est une application web dédiée à la mise en relation des chercheurs d'e
         * Postuler directement avec une lettre de motivation<br>
 
 
-<<<<<<< HEAD
 
-Jobiz
-├───.vscode
-│       settings.json
+
+Jobiz<br>
+├───.vscode<br>
+│       settings.json<br>
 │       
-├───config
-│       routes.php
+├───config<br>
+│       routes.php<br>
 │       
-├───public
-│       .htaccess
-│       index.php
+├───public<br>
+│       .htaccess<br>
+│       index.php<br>
 │       
-├───src
-│   ├───Controller
-│   │       Controller.php
-│   │       ErrorController.php
-│   │       JobController.php
-│   │       PageController.php
+├───src<br>
+│   ├───Controller<br>
+│   │       Controller.php<br>
+│   │       ErrorController.php<br>
+│   │       JobController.php<br>
+│   │       PageController.php<br>
 │   │       
-│   ├───Db
-│   │       Mysql.php
+│   ├───Db<br>
+│   │       Mysql.php<br>
 │   │       
-│   ├───Entity
-│   │       Category.php
-│   │       Entity.php
-│   │       Job.php
+│   ├───Entity<br>
+│   │       Category.php<br>
+│   │       Entity.php<br>
+│   │       Job.php<br>
 │   │
-│   ├───Repository
-│   │       CategoryRepository.php
-│   │       JobRepository.php
-│   │       Repository.php
+│   ├───Repository<br>
+│   │       CategoryRepository.php<br>
+│   │       JobRepository.php<br>
+│   │       Repository.php<br>
 │   │
-│   └───Routing
-│           Router.php
+│   └───Routing<br>
+│           Router.php<br>
 │
-├───vendor
-│   │   autoload.php
+├───vendor<br>
+│   │   autoload.php<br>
 │   │
-│   └───composer
-│           autoload_classmap.php
-│           autoload_namespaces.php
-│           autoload_psr4.php
-│           autoload_real.php
-│           autoload_static.php
-│           ClassLoader.php
-│           LICENSE
+│   └───composer<br>
+│           autoload_classmap.php<br>
+│           autoload_namespaces.php<br>
+│           autoload_psr4.php<br>
+│           autoload_real.php<br>
+│           autoload_static.php<br>
+│           ClassLoader.php<br>
+│           LICENSE<br>
 │
-└───view
-│   │   footer.php
-│   │   header.php
+└───view<br>
+│   │   footer.php<br>
+│   │   header.php<br>
 │   │
-│   ├───errors
-│   │       default.php
+│   ├───errors<br>
+│   │       default.php<br>
 │   │
-│   ├───job
-│   │       list.php
-│   │       show.php
+│   ├───job<br>
+│   │       list.php<br>
+│   │       show.php<br>
 │   │
-│   └───pages
-│            about.php
-│            home.php
-│            test.php
-│   .env
-│   .env.example
-│   .gitignore
-│   000-default.conf
-│   composer.json
-│   docker-compose.yml
-│   Dockerfile
-│   Jobiz.session.sql
-│   README.md
+│   └───pages<br>
+│            about.php<br>
+│            home.php<br>
+│            test.php<br>
+│   .env<br>
+│   .env.example<br>
+│   .gitignore<br>
+│   000-default.conf<br>
+│   composer.json<br>
+│   docker-compose.yml<br>
+│   Dockerfile<br>
+│   Jobiz.session.sql<br>
+│   README.md<br>
 =======
->>>>>>> 2d8435af22c10d87b4ff1bf7ead42be0f1ff1ffd
+
