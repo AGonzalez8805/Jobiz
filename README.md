@@ -20,6 +20,7 @@ Jobiz est une application web dédiée à la mise en relation des chercheurs d'e
         * Postuler directement avec une lettre de motivation<br>
 
 
+<<<<<<< HEAD
 
 Jobiz
 ├───.vscode
@@ -91,3 +92,5 @@ Jobiz
 │   Dockerfile
 │   Jobiz.session.sql
 │   README.md
+=======
+>>>>>>> 2d8435af22c10d87b4ff1bf7ead42be0f1ff1ffd
