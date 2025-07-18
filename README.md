@@ -20,53 +20,74 @@ Jobiz est une application web dédiée à la mise en relation des chercheurs d'e
         * Postuler directement avec une lettre de motivation<br>
 
 
-Jobiz/<br>
-├── .vscode </br>
-│   └──settings.json <br>
-├── config/<br>
-│   └──routes.php <br>
-├── public/<br>
-│   ├── .htaccess<br>
-│   └── index.php<br>
-├── src/<br>
-│   ├── Controller/<br>
-|       ├── Controller.php<br>
-|       ├── ErrorController.php<br>
-|       ├── JobController.php<br>
-│       └── PageController.php<br>
-│   ├── Db/<br>
-│       └── Mysql.php<br>
-|   ├── Entity/<br>
-|       ├── Category.php<br>
-│       ├──Entity.php<br>
-│       └── Job.php<br>
-|   ├── Repository/<br>
-|       ├──CategoryRepository.php<br>
-|       ├──JobRepository.php<br>
-│       └──Repository.php<br>
-|   ├── Routing/<br>
-│       └──Router.php<br>
-├── vendor/<br>
-|       ├──composer/<br>
-│       └──autoload.php<br>
-├── view/<br>
-│    ├── errors/<br>
-│       └── default.php<br>
-│    ├── job/<br>
-|       ├── list.php<br>
-│       └── show.php<br>
-│    ├── Pages/<br>
-|       ├── about.php<br>
-│       └── home.php<br>
-│    ├── footer.php<br>
-│    ├── header.php<br>
-├── .env<br>
-├── .env.example<br>
-├── .gitignore<br>
-├── composer.json<br>
-├── 000-default.conf<br>
-├── composer.json<br>
-├── docker-compose.yml<br>
-├── Dockerfile<br>
-├── Jobiz.session.sql<br>
-└── README.md<br>
+
+Jobiz
+├───.vscode
+│       settings.json
+│       
+├───config
+│       routes.php
+│       
+├───public
+│       .htaccess
+│       index.php
+│       
+├───src
+│   ├───Controller
+│   │       Controller.php
+│   │       ErrorController.php
+│   │       JobController.php
+│   │       PageController.php
+│   │       
+│   ├───Db
+│   │       Mysql.php
+│   │       
+│   ├───Entity
+│   │       Category.php
+│   │       Entity.php
+│   │       Job.php
+│   │
+│   ├───Repository
+│   │       CategoryRepository.php
+│   │       JobRepository.php
+│   │       Repository.php
+│   │
+│   └───Routing
+│           Router.php
+│
+├───vendor
+│   │   autoload.php
+│   │
+│   └───composer
+│           autoload_classmap.php
+│           autoload_namespaces.php
+│           autoload_psr4.php
+│           autoload_real.php
+│           autoload_static.php
+│           ClassLoader.php
+│           LICENSE
+│
+└───view
+│   │   footer.php
+│   │   header.php
+│   │
+│   ├───errors
+│   │       default.php
+│   │
+│   ├───job
+│   │       list.php
+│   │       show.php
+│   │
+│   └───pages
+│            about.php
+│            home.php
+│            test.php
+│   .env
+│   .env.example
+│   .gitignore
+│   000-default.conf
+│   composer.json
+│   docker-compose.yml
+│   Dockerfile
+│   Jobiz.session.sql
+│   README.md
