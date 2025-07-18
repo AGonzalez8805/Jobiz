@@ -19,19 +19,29 @@ Jobiz est une application web dédiée à la mise en relation des chercheurs d'e
         Utiliser les filtres pour affiner la recherche<br>
         Postuler directement avec une lettre de motivation<br>
 
-Jobiz/<br>
-├── .vscode </br>
-│   └──settings.json <br>
-├── config/<br>
-│   └──routes.php <br>
-├── public/<br>
-│   ├── .htaccess<br>
-│   └── index.php<br>
-├── src/<br>
-│   ├── Controller/<br>
-|       ├── Controller.php<br>
-|       ├── ErrorController.php<br>
-|       ├── JobController.php<br>
-│       └── PageController.php<br>
 
+mon-super-projet/
+├── .vscode/
+│   └── settings.json
+├── node_modules/
+│   ├── (nombreux dossiers de dépendances)
+│   └── .package-lock.json
+├── public/
+│   ├── index.html
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── main.js
+├── src/
+│   ├── components/
+│   │   ├── Header.js
+│   │   └── Footer.js
+│   ├── pages/
+│   │   ├── HomePage.js
+│   │   └── AboutPage.js
+│   └── App.js
+├── .gitignore
+├── package.json
+├── README.md
+└── server.js
 
