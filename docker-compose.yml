@@ -18,10 +18,10 @@ services:
     image: mysql:latest
     container_name: Jobiz_mysql
     environment:
-      MYSQL_ROOT_PASSWORD: Ag1805Sz0602@
-      MYSQL_DATABASE: Jobiz
-      MYSQL_USER: Amelie
-      MYSQL_PASSWORD: Ag1805Sz0602@
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
     ports:
       - "3306:3306"
     volumes:
@@ -33,9 +33,9 @@ services:
     image: phpmyadmin/phpmyadmin
     container_name: Jobiz_phpmyadmin
     environment:
-      PMA_HOST: db
-      PMA_USER: Amelie
-      PMA_PASSWORD: Ag1805Sz0602@
+      PMA_HOST: ${PMA_HOST}
+      PMA_USER: ${PMA_USER}
+      PMA_PASSWORD: ${PMA_PASSWORD}
     ports:
       - "80:80"
     depends_on:
